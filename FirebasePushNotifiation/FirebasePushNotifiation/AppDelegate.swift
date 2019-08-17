@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  FirebasePushNotifiation
 //
-//  Created by Mitul Patel on 17/08/19.
-//  Copyright © 2019 Mitul Patel. All rights reserved.
+//  Created by Magic-IOS on 17/08/19.
+//  Copyright © 2019 Magic-IOS. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        PushNotification.setupForPushNotiFication(application: application) { (isGranted) in
+            print(isGranted)
+        }
         return true
     }
 

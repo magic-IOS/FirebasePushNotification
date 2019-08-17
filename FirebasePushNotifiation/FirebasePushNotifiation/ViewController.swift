@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  FirebasePushNotifiation
 //
-//  Created by Mitul Patel on 17/08/19.
-//  Copyright © 2019 Mitul Patel. All rights reserved.
+//  Created by Magic-IOS on 17/08/19.
+//  Copyright © 2019 Magic-IOS. All rights reserved.
 //
 
 import UIKit
